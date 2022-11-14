@@ -1,0 +1,39 @@
+
+/* header bg*/
+
+.header-bg{
+    display: flex;
+    height: 70vh;
+}
+
+.div-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* my grid */
+
+.container-divider{
+    display: grid;
+    grid-template-columns: 75% 20%;
+    gap: 2rem;
+}
+
+.container-grid-blogs{
+    /* border: 2px solid brown; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+
+.after-selecting-player-button{
+    background-color: white;
+    text-decoration: line-through;
+    padding:8px;
+    margin-top: 10px;
+    color:black;
+    border: 0px solid white;
+    border-radius: 3px;
+}

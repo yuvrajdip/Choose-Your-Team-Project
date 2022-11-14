@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream 5</title>
+
+    <!-- style sheet adding -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- bootstrap cdn -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> -->
+
+</head>
+<body>
+
+    <!-- Header Section -->
+
+    <header class="bg-black d-flex header-bg">
+        
+        <div>
+            <img class="py-5" src="./images/Mbappe2.jpg" alt="">
+        </div>
+
+        <div class="text-center content-center mt-40">
+            <h1 class="font-bold text-6xl my-div-center text-amber-600">Choose Your Team</h1>
+            <p class="text-xl text-white mt-5">We hope that you like football. And if you do, than you can select and choice your own team here!</p>
+        </div>
+        
+    </header>
+    <!-- Header Section finished -->
+
+
+    <main class="mt-16">
+        
+        <section class="container-divider ml-10">
+            
+            <div class="container-grid-blogs w-full">
+                
+                <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                    <div>
+                        <img class="rounded-t-lg object-fill h-48 w-96" src="./images/player-1.jpg" alt="">
+                    </div>
+                    <div class="p-5">
+                        <h5 class="card-title text-2xl text-white player-name">Leonel Messi</h5>
+                        
+                        <div class="flex justify-center">
+                            <button type="button" onclick="select(this)" class="text-base text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg px-4 py-2.5 text-center  mr-2 mb-2 mt-3   ">Select</button>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                    <div>
+                        <img class="rounded-t-lg object-fill h-48 w-96" src="./images/player-2.jpg" alt="">
+                    </div>
+
+                    <div class="p-5">
+                        
+                        <h5 class="card-title text-2xl text-white player-name" >Cristiano Ronaldo</h5>
+                                
+                        <div class="flex justify-center">
+                            <button type="button" onclick="select(this)" class="text-base text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg px-4 py-2.5 text-center  mr-2 mb-2 mt-3   ">Select</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                
+                <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 card">
+                    <div>
+                        <img class="rounded-t-lg object-fill h-48 w-96" src="./images/player-3.jpg" alt="">
+                    </div>
+
+                    <div class="p-5">
+                        
+                        <h5 class="card-title text-2xl text-white player-name">Sergio Ramos</h5>
+                        
+                        <div class="flex justify-center">
+                            <button type="button" onclick="select(this)" class="text-base text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg px-4 py-2.5 text-center  mr-2 mb-2 mt-3   ">Select</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                
+                <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 card">
+                    <div>
+                        <img class="rounded-t-lg object-fill h-48 w-96" src="./images/player-4.jpg" alt="">
+                    </div>
+
+                    <div class="p-5">
+                        
+                        <h5 class="card-title text-2xl text-white player-name" >Neymar</h5>
+                        
+                        <div class="flex justify-center">
+                            <button type="button" onclick="select(this)" class="text-base text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg px-4 py-2.5 text-center  mr-2 mb-2 mt-3   ">Select</button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 card">
+                    <div>
+                        <img class="rounded-t-lg object-fill h-48 w-96" src="./images/player-5.jpg" alt="">
+                    </div>
+
+                    <div class="p-5">
+                        
+                        <h5 class="card-title text-2xl text-white player-name">David Villa</h5>
+                        
+                        <div class="flex justify-center">
+                            <button type="button" onclick="select(this)" class="text-base text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg px-4 py-2.5 text-center  mr-2 mb-2 mt-3   ">Select</button>
+                        </div>
+
+                    </div>
+                </div>
+                
+
+                <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 card">
+                    <div>
+                        <img class="rounded-t-lg object-fill h-48 w-96" src="./images/player-6.jpg" alt="">
+                    </div>
+
+                    <div class="p-5">
+                        
+                        <h5 class="card-title text-2xl text-white player-name" >Zlatan Ibrahanobich</h5>
+                        
+                        <div class="flex justify-center">
+                            <button type="button" onclick="select(this)" class="text-base text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg px-4 py-2.5 text-center  mr-2 mb-2 mt-3   ">Select</button>
+                        </div>
+
+                    </div>
+                </div>
+                
+                <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 card">
+                    <div>
+                        <img class="rounded-t-lg object-fill h-48 w-96" src="./images/player-7.jpg" alt="">
+                    </div>
+
+                    <div class="p-5">
+                        
+                        <h5 class="card-title text-2xl text-white player-name" >Casimero</h5>
+                        
+                        <div class="flex justify-center">
+                            <button type="button" onclick="select(this)" class="text-base text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg px-4 py-2.5 text-center  mr-2 mb-2 mt-3   ">Select</button>
+                        </div>
+
+                    </div>
+                </div>
+                
+                <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 card">
+                    <div>
+                        <img class="rounded-t-lg object-fill h-48 w-96" src="./images/player-8.jpg" alt="">
+                    </div>
+
+                    <div class="p-5">
+                        
+                        <h5 class="card-title text-2xl text-white player-name" >Pique</h5>
+                        
+                        <div class="flex justify-center">
+                            <button type="button" onclick="select(this)" class="text-base text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg px-4 py-2.5 text-center  mr-2 mb-2 mt-3   ">Select</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 card">
+                    <div>
+                        <img class="rounded-t-lg object-fill h-48 w-96" src="./images/player-9.jpg" alt="">
+                    </div>
+
+                    <div class="p-5">
+                        
+                        <h5 class="card-title text-3xl text-white player-name" >Ronie</h5>
+                        
+                        <div class="flex justify-center">
+                            <button type="button" onclick="select(this)" class="text-base text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg px-4 py-2.5 text-center  mr-2 mb-2 mt-3   ">Select</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <aside class="w-full">
+
+                <!-- Selected Player Section -->
+
+                <div class="w-full grid grid-cols-1 h-fit min-h-max relative inline-flex justify-center p-0.5 mb-2 mr-2 overflow-hidden font-medium text-gray-900 rounded group dark:bg-gray-900 from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800" id="select-five-section">
+
+                    <div class="flex" id="selected-players-count">
+                        <h1 class="text-2xl p-2">Selected Players </h1>
+                    </div>
+                </div>
+
+
+                <!-- Budget Section -->
+                
+                <div class="w-full grid grid-cols-1 h-fit min-h-max relative inline-flex justify-center p-3 mb-2 mr-2 overflow-hidden font-medium text-gray-900 rounded group dark:bg-gray-900 from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+                    <h1 class="text-center text-3xl p-5">Budget</h1>
+
+                    <!-- Per Player Input Field -->
+
+                    <div class="flex">
+                        <span class="text-base basis-1/2 ml-1 mr-2">Per Player</span>
+                        
+                        <div class="relative inline-flex items-center justify-center overflow-hidden text-gray-900 group from-purple-600 to-blue-500 group-hover:from-purple-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+
+                            <input id="per-player" class="    
+                            relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-1
+                            text-white placeholder:italic block w-full border-2 border-cyan-400 rounded mr-1 py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Enter Amount..." type="text" name="search"/>
+                        </div>
+
+                    </div>
+
+                    <!-- Calculate Button -->
+
+                    <button type="button" id="calculate-button" class="ml-1 w-11/12 text-base text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg px-4 py-2.5 text-center  mr-2 mb-6 mt-3">Calculate</button>
+
+                    <!-- Total Player Calculation part -->
+
+                    <div id="player-expense" class="flex flex-row mb-3">
+                        <span class="text-base basis-1/2 ml-1 mr-2">Player Expenses</span>
+                        
+                        <h1>$</h1>
+                        
+                        <!-- ekhane total player expense add korte hobe -->
+                    </div>
+
+                    <!-- Manager Input Field -->
+
+                    <div class="flex flex-row mt-2 ">
+                        <span class="text-base basis-1/2 ml-1 mr-2">Manager</span> 
+                        
+                        <div class="relative inline-flex items-center justify-center overflow-hidden text-gray-900 group from-purple-600 to-blue-500 group-hover:from-purple-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+
+                            <input id="manager" class="    
+                            relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-1
+                            text-white placeholder:italic block w-full border-2 border-cyan-400 rounded mr-1 py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Enter Amount..." type="text" name="search"/>
+                        </div>
+                            
+                    </div>
+
+                    <!-- Coach Input Field -->
+
+                    <div class="flex flex-row mt-2">
+                        <span class="text-base basis-1/2 ml-1 mr-2">Coach</span>
+
+                        <div class="relative inline-flex items-center justify-center overflow-hidden text-gray-900 group from-purple-600 to-blue-500 group-hover:from-purple-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+
+                            <input id="coach" class="    
+                            relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-1
+                            text-white placeholder:italic block w-full border-2 border-cyan-400 rounded mr-1 py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Enter Amount..." type="text" name="search"/>
+                        </div>
+                    </div>
+
+                    <!-- Total Calculation Button -->
+
+                    <button id="total-calculation" type="button" class="ml-2 w-11/12 text-base text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg px-4 py-2.5 text-center  mr-2 mb-6 mt-3 ">Calculate Total</button>
+
+                    
+                    
+                    <!-- Calculating Total -->
+
+                    <div id="total" class="flex flex-row mb-3">
+                        <span class="text-base basis-1/2 ml-1 mr-2">Total</span>
+                        
+                        <h1>$</h1>
+                        
+                        <!-- ekhane total player expense add korte hobe -->
+                    </div>
+
+
+                </div>
+            </aside>
+            
+        </section>
+        <!-- Player Section -->
+
+        
+        <!-- Player section finished -->
+        
+        
+    </main>
+
+    <footer style="margin-top:40px;display:10vh; background-color: black;color: white;">
+        <h1 class="text-center text-base p-10">Copyright @ 2022 All Rights Reserved.</h1>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
